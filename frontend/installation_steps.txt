@@ -1,0 +1,11 @@
+npm install -g express-generator
+express --view=html bangalore-house-price-prediction-app
+cd bangalore-house-price-prediction-app
+npm install
+set DEBUG=bangalore-house-price-prediction-app:* & npm start
+
+for view engine setup in node
+npm install consolidate
+npm install swig
+map api key : AIzaSyCHudR0mVwHI36dLBPIYw5IFollAKLtdT8
+AIzaSyCHudR0mVwHI36dLBPIYw5IFollAKLtdT8

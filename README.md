@@ -22,6 +22,11 @@ To check the accuracy of Linear regression Model using K-fold cross Validation m
 
 #### Model Exporter
 Pickle
+```
+import pickle
+with open('/kaggle/working/banglore_home_prices_model.pickle','wb') as my_model:
+     pickle.dump(lr_clf,my_model)
+```
 
 #### Development environment
 Visual Studio Code
@@ -81,10 +86,20 @@ app.set('view engine', 'html');
 #### Default Port
 http://localhost:3000/
 
+## Api checking through postman
+
+#### GET API Call
+![screenshots_for_get_location_names](https://github.com/kaushik-prasad-dey/house_price_prediction_app/assets/109330283/71d37b7d-bd77-4646-ac3a-c5eae254be5b)
+
+#### POST API Call
+![screenshots_for_predict_home_price](https://github.com/kaushik-prasad-dey/house_price_prediction_app/assets/109330283/4d0fc881-11bc-4a8d-9ff6-80564ad36aad)
+
+
 ## Deploy application to cloud (AWS EC2)
 
 Create an EC2 instance using amazon console, also in security group add a rule to allow HTTP incoming traffic.(0.0.0.0)
 Now connect to your instance using the below commands.
-
+```
 ssh -i "<custom-key-pair>.pem" ubuntu<public-ip>.ap-south-1.compute.amazonaws.com
+```
 

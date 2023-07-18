@@ -1,7 +1,90 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# Real Estate Price Prediction
+This end to end data science project is step by step process of how to build a real estate price prediction web application using html5, python, flask, bootstrap and deployment in AWS ec2. 
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+#### Problem Statement
+Before purchsing home any potential buyer thinks and looking for the location( where the flat, house is situated ), the property size ( 2 bhk, 3 bhk ), any schools and hospitals are near in that location, is there any parks, restaurants are present or not everything. And the most important factor is price.
+So, we are predicting the home price in Bangalore location with various ML algoritham.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+#### Dataset
+https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
+#### Programming Language
+Python (Flask Framework)
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever
+Html5
+
+JavaScript
+
+Bootstrap
+
+#### Machine Learning Model
+Linear regression 
+To check the accuracy of Linear regression Model using K-fold cross Validation method
+
+#### Model Exporter
+Pickle
+
+#### Development environment
+Visual Studio Code
+Github Code space
+
+#### Deployment
+Aws Ec2 server
+
+
+![image](https://github.com/kaushik-prasad-dey/house_price_prediction_app/assets/109330283/004a8c78-eb6d-4df8-b369-ee4ccb2c48e0)
+
+## For backend with python
+#### Commands for creating conda virtual environment
+conda create -n venv python=3.9 -y [new directory] 
+conda create -p venv python=3.9 -y [present directory] 
+
+#### activate the environment
+conda activate venv/ 
+
+#### added dependecies
+flask 
+pandas 
+numpy 
+seaborn 
+
+#### install python dependencies from requirment.txt
+pip install -r requirements.txt 
+
+#### install and activate ipykernel inside python project
+pip install ipykernel
+#### Default Port
+http://localhost:5000/
+
+## Project High-Level architecture
+
+![Production_deployment](https://github.com/kaushik-prasad-dey/house_price_prediction_app/assets/109330283/7cb0ed42-223a-420f-bc0a-0b1cda4ccbf6)
+
+## For Frontend with Node
+#### Node Express Generator for Creating Boilerplate
+npm install -g express-generator
+#### Change the directory
+cd bangalore-house-price-prediction-app
+#### install npm packages
+npm install
+#### run npm packages
+set DEBUG=bangalore-house-price-prediction-app:* & npm start
+
+#### install consolidate and swig package
+npm install consolidate
+npm install swig
+
+#### For setup HTML engine in your app.js
+app.engine('html', cons.swig)
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'html');
+
+#### Default Port
+http://localhost:3000/
+
+## Deploy application to cloud (AWS EC2)
+
+Create an EC2 instance using amazon console, also in security group add a rule to allow HTTP incoming traffic.(0.0.0.0)
+Now connect to your instance using the below commands.
+
+ssh -i "<custom-key-pair>.pem" ubuntu<public-ip>.ap-south-1.compute.amazonaws.com
+

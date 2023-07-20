@@ -33,9 +33,10 @@ Visual Studio Code
 Github Code space
 
 ## Deployment
-Aws Ec2 server
+Aws Ec2 instance with nginx
 
 
+## Project Screenshots
 ![image](https://github.com/kaushik-prasad-dey/house_price_prediction_app/assets/109330283/004a8c78-eb6d-4df8-b369-ee4ccb2c48e0)
 
 ## For backend with python
@@ -165,4 +166,4 @@ ssh -i "<custom-key-pair>.pem" ubuntu<public-ip>.ap-south-1.compute.amazonaws.co
       ```
 
 ## Project Video Demo
-https://www.youtube.com/watch?v=xP_ZON_P4Ks
+sss

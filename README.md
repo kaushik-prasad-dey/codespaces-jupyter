@@ -7,6 +7,7 @@ So, we are predicting the home price in Bangalore location with various ML algor
 
 ## Dataset
 https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
+
 ## Programming Language
 Python (Flask Framework)
 
@@ -20,6 +21,8 @@ Bootstrap
 Linear regression 
 To check the accuracy of Linear regression Model using K-fold cross Validation method
 
+NoteBook Link : https://www.kaggle.com/code/pythonmah/real-estate-price-prediction-project
+
 ## Model Exporter
 Pickle
 ```
@@ -30,7 +33,12 @@ with open('/kaggle/working/banglore_home_prices_model.pickle','wb') as my_model:
 
 ## Development environment
 Visual Studio Code
+
 Github Code space
+  *******Github CodeSpace Screenshots*******
+![image](https://github.com/kaushik-prasad-dey/house_price_prediction_app/assets/109330283/8061507b-ed52-4fd3-be92-849797abefb0)
+
+
 
 ## Deployment
 Aws Ec2 instance with nginx
@@ -38,6 +46,9 @@ Aws Ec2 instance with nginx
 
 ## Project Screenshots
 ![image](https://github.com/kaushik-prasad-dey/house_price_prediction_app/assets/109330283/004a8c78-eb6d-4df8-b369-ee4ccb2c48e0)
+
+## Project Video
+sss
 
 ## For backend with python
 *******Commands for creating conda virtual environment*******
@@ -164,6 +175,18 @@ ssh -i "<custom-key-pair>.pem" ubuntu<public-ip>.ap-south-1.compute.amazonaws.co
       sudo service nginx stop
       sudo service nginx restart      
       ```
+8. Now when you load cloud url in browser you will get a message "welcome to nginx" This means your nginx is active and up & running.
+   
+9. Now you need to copy entire code to EC2 instance. in this project i have used winscp and its download link : https://winscp.net/eng/download.php
+    
+10. *******Entire code move to Ec2 via WinScp*******
 
-## Project Video Demo
-sss
+![image](https://github.com/kaushik-prasad-dey/house_price_prediction_app/assets/109330283/d883b449-c541-43df-9015-e1ae1b94dc74)
+
+11. you can now copy all code files into /home/ubuntu/ folder. The full path of your root folder is now
+    ```
+    /home/ubuntu/html_app
+    ```
+
+
+

@@ -48,8 +48,7 @@ Aws Ec2 instance with nginx
 ![image](https://github.com/kaushik-prasad-dey/house_price_prediction_app/assets/109330283/004a8c78-eb6d-4df8-b369-ee4ccb2c48e0)
 
 ## Project Video
-https://drive.google.com/file/d/1D_KZc2y8E8NJsGkHd5MCXuH9CU-gCUIJ/view?usp=sharing
-
+https://youtu.be/CDWSo9fCWTI
 ## For backend with python
 *******Commands for creating conda virtual environment*******
 ```
